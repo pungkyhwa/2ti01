@@ -1,6 +1,5 @@
 <?php 
 $app = new application;
-$no = 1;
 $query = "SELECT COUNT(id_pegawai) as jml FROM pegawai";
 foreach ($app->tampilData($query) as $row) {   
     $jumlahPegawaiSaatini = $row['jml'];

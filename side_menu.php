@@ -71,8 +71,16 @@
                         <p>Supplier</p>
                         </a>
                     </li>
+                    <li class="nav-item">
+                        <a href="dasboard.php?page=app/view_produk" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>produk/barang</p>
+                        </a>
+                    </li>
                     </ul>
                 </li>
+
+                
                 
                 </ul>
             </nav>

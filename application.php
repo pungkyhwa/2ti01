@@ -50,5 +50,9 @@
         {
             mysqli_query($this->koneksi,"INSERT INTO supplier(nm_supplier, alamat, no_telp, email) VALUES ('$nm_supplier','$alamat','$no_telp','$email')");
         }
+        public function addProduk($id_produk,$merek,$id_supplier,$id_satuan,$id_kategori,$deskripsi)
+        {
+            mysqli_query($this->koneksi,"INSERT INTO produk(id_produk, nm_produk, id_supplier, deskripsi, id_satuan, id_kategori) VALUES ('$id_produk','$merek','$id_supplier','$deskripsi','$id_satuan','$id_kategori')");
+        }
     }
 ?>
