@@ -36,21 +36,39 @@
                     </a>
                     <ul class="nav nav-treeview">
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="dasboard.php?page=app/view_pegawai" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Pegawai</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="dasboard.php?page=app/view_user" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
                         <p>Users</p>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="" class="nav-link">
+                        <a href="dasboard.php?page=app/view_costumer" class="nav-link">
                         <i class="far fa-circle nav-icon"></i>
-                        <p>SUpplier</p>
+                        <p>costumer</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dasboard.php?page=app/view_kategoriproduk" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>kategori produk</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dasboard.php?page=app/view_satuan" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>jenis satuan</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="dasboard.php?page=app/view_supplier" class="nav-link">
+                        <i class="far fa-circle nav-icon"></i>
+                        <p>Supplier</p>
                         </a>
                     </li>
                     </ul>

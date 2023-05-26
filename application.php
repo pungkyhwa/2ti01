@@ -34,6 +34,21 @@
         {
             mysqli_query($this->koneksi,"INSERT INTO users(id_pegawai, username, password, roles) VALUES ('$id_peg','$username','$password','2')");
         }
-        
+        public function addCostumer($id_costumer,$nm_costumer,$email,$no_telp,$alamat)
+        {
+            mysqli_query($this->koneksi,"INSERT INTO costummer(id_costumer, nm_costumer, alamat, email, no_telp) VALUES ('$id_costumer','$nm_costumer','$alamat','$email','$no_telp')");
+        }
+        public function addKatProduk($nm_kat,$ketrangan)
+        {
+            mysqli_query($this->koneksi,"INSERT INTO kat_produk(nm_kategori, keterangan) VALUES ('$nm_kat','$ketrangan')");
+        }
+        public function addSatuan($nm_sat,$ketrangan)
+        {
+            mysqli_query($this->koneksi,"INSERT INTO satuan(nm_satuan, keterangan) VALUES ('$nm_sat','$ketrangan')");
+        }
+        public function addSupplier($nm_supplier,$email,$no_telp,$alamat)
+        {
+            mysqli_query($this->koneksi,"INSERT INTO supplier(nm_supplier, alamat, no_telp, email) VALUES ('$nm_supplier','$alamat','$no_telp','$email')");
+        }
     }
 ?>
